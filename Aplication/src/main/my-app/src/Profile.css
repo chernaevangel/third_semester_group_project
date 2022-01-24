@@ -1,0 +1,579 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#ProfileInfo {
+    align-items: flex-end;
+display: flex;
+overflow: visible;
+position: relative;
+margin-left: 50px;
+    
+}
+
+
+#ProfilePicture {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    z-index: 1;
+}
+.ProfilePicture {
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #86639f;
+    border: 1px solid rgba(112,112,112,1);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.ProfilePic:hover {cursor: pointer;}
+
+.ProfilePicture img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#InfoPopup {
+
+}
+.InfoPopUp {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    padding: 32px;
+    border-radius: 12px;
+    transform: translate(-50%, -50%);
+}
+
+.Overlay {
+    z-index: 9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+}
+.imge{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+#MidInfo{
+    display: grid;
+    align-items: center;
+    /* grid-template-areas: "a b b b c"; */
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+/*hide for chrome edge*/
+#InfoCard::-webkit-scrollbar {
+    display: none;
+}
+#InfoCard {
+
+
+/* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    z-index: 10;
+    position: fixed;
+    width: -webkit-fill-available;width: -moz-available;
+    height: 100%;
+    overflow-y: scroll;
+    left: 0%;
+    top: 0px;
+
+}
+#InfoBg {
+    /*margin-inline: 20%;
+    margin-block: 5%;*/
+    margin: auto;
+    background-color: rgba(216,212,222,1);
+    fill: rgba(216,212,222,1);
+    /* stroke: rgba(112,112,112,1); */
+    stroke-width: 159px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+    border: thin;
+    border-color: rgba(112,112,112,1);
+    border-width: 114px;
+    border-radius: 107px;
+}
+.InfoBg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    overflow: visible;
+    width: 50%;
+    height: max-content;
+    left: 0px;
+    top: 50%;
+    transform: translate(0,-50%);
+    padding: 2.5%;
+}
+img{
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+#CardName {
+    text-align: center;
+    grid-column: 2/5;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    color: rgba(112,112,112,1);
+}
+#ProfilePic {
+
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.ProfilePicHolder {
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    user-select: none;
+    margin: 15px 0;
+}
+.ProfilePic {
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin-top: 7%;
+    border: 2px solid white;
+    position: relative;
+    overflow: hidden;
+    width: 18vw;
+    height: 18vw;
+}
+#Info {
+    position: relative;
+}
+#Experience {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+#ExperienceList {
+    white-space: pre-wrap;
+    grid-column: 2/6;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(112,112,112,1);
+}
+#ExperienceBtn {
+}
+#ExperienceBtnBg {
+    fill: rgba(204,201,210,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.ExperienceBtnBg {
+
+}
+#Experience_s {
+    position: relative;
+    overflow: visible;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    background-color: rgba(204,201,210,1);
+    border: 1px solid rgba(112,112,112,1);
+    border-radius: 30px;
+    text-align: center;
+}
+#Bio {
+    position: relative;
+    margin-bottom: 10px;
+}
+#BioBg {
+    background-color: rgba(204,201,210,1);
+    border: 1px solid rgba(112,112,112,1);
+    border-radius: 10px;
+}
+.BioBg {
+
+}
+#BioText {
+    white-space: pre-wrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8em;
+    color: rgba(112,112,112,1);
+    padding: 5px;
+}
+#Interests {
+    font-size: 0.6em;
+
+}
+#InterestsBtn {
+
+}
+#InterestsBtnBg {
+    fill: rgba(204,201,210,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.InterestsBtnBg {
+
+}
+#Interests_z {
+    position: relative;
+    overflow: visible;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    background-color: rgba(204,201,210,1);
+    border: 1px solid rgba(112,112,112,1);
+    border-radius: 30px;
+    text-align: center;
+    padding: 3px;
+}
+#change-lang-button {
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%), 0 1px rgb(255 255 255 / 10%);
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+}
+#IntertestsList {
+    white-space: pre-wrap;
+    grid-column: 2/6;
+    position: relative;
+    overflow: visible;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(112,112,112,1);
+    padding-left: 30px;
+    margin-top: 5px;
+    overflow-y: scroll;
+    max-height: 100px;
+}
+#language-text{
+    font-size: 20px;
+}
+#edit-button-interests{
+    display: block;
+    width: 10%;
+    padding: 3px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #636;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#Skills {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+
+}
+#SkillsList {
+    white-space: pre-wrap;
+    grid-column: 2/6;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: rgba(112,112,112,1);
+}
+#SkillsBtn {
+
+}
+#SkillsBtnBg {
+    fill: rgba(204,201,210,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.SkillsBtnBg {
+
+}
+#Skills_ {
+    position: relative;
+    overflow: visible;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    background-color: rgba(204,201,210,1);
+    border: 1px solid rgba(112,112,112,1);
+    border-radius: 30px;
+    text-align: center;
+}
+#EditBtn {
+    grid-column: 5;
+    display: flex;
+    width: -webkit-fill-available;width: -moz-available;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 5%;
+}
+#EditBg {
+    width: 100%;
+    height: 25%;
+    background-color: rgba(204,201,210,1);
+    border: 1px solid rgba(112,112,112,1);
+    border-radius: 10px;
+    align-self: end;
+    font-size: 20px;
+}
+.EditBg {
+}
+#Edit {
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(112,112,112,1);
+}
+#DetailsWrapper {
+    grid-column: 1;
+    padding-left: 5%;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(177,177,177,1);
+}
+#NameSpan {
+    position: relative;
+    color: rgb(231, 227, 227);
+   cursor: pointer;
+    margin-left: 10px;
+}
+
+.disp-none{
+    display: none;
+}
+.switch_language {
+    font-size: 20px;
+    left: 180px;
+    position: absolute;
+    display: inline-block;
+    z-index: 10;
+
+}
+.switch_visibility{
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    display: inline-block;
+    z-index: 20;
+}
+.switch_visibility button{
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%), 0 1px rgb(255 255 255 / 10%);
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+}
+
+.switch_visibility button:active{
+
+    box-shadow: inset 0 1px 3px rgb(0 0 0 / 30%), 0 1px rgb(255 255 255 / 10%);
+
+}
+.close-btn{
+
+}
+
+.close-btn i{
+    font-size: 36px;
+}
+
+.close-btn button{
+    position: absolute;
+    right:0;
+    top: 5px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #636;
+    color: white;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.change-pic{
+    position: absolute;
+    bottom: 40px;
+    z-index: 0;
+}
+
+.change-pic button{
+    padding: 5px 10px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 25px;
+    color: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.5);
+    cursor: pointer;
+}
+
+.select-pic{
+    position: relative;
+    padding: 15px 20px 20px 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.center-image-select{
+    bottom: 1vw;
+}
+
+.select-pic input[type="file"]{
+    display: none;
+}
+
+.select-pic label{
+    font-size: 25px;
+    border: 1px solid rgba(255,255,255,0.5);
+    display: inline-block;
+    padding: 0px 10px 5px 10px;
+    cursor: pointer;
+    color: rgba(255,255,255,0.5);
+    margin-right: 5px;
+}
+
+.edit-menu-wrapper{
+    display: inline-block;
+    position: absolute;
+    right: 15%;
+    top: 20px;
+    user-select: none;
+}
+
+.edit-menu{
+    overflow: visible;
+    font-size: 50%;
+}
+
+.edit-menu label{
+    position: relative;
+    background-color: #fff;
+    color:black;
+    display: block;
+    cursor: pointer;
+    padding: 3% 8em 3% 3%;
+    display:inline-block;
+    border-radius: 5%;
+    z-index: 2;
+    border: 0;
+}
+
+.edit-menu label:after{
+    content: "";
+    position: absolute;
+    border: solid black;
+    border-width: 0 0.2em 0.2em 0;
+    display: inline-block;
+    padding: 0.3em;
+    transform: rotate(45deg) translate(0,-50%);
+    -webkit-transform: rotate(45deg) translate(0,-75%);
+    top: 50%;
+    margin-left: 50%;
+    transition: all 0.2s ease;
+}
+
+.edit-menu-list{
+    background-color: #fff;
+    width: auto;
+    padding: 3%;
+    margin-top: 5px;
+    max-height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.edit-menu-list li:hover{
+    background-color: rgba(216,212,222,1);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.edit-menu-list li{
+    padding: 2%;
+}
+
+.edit-menu input:checked ~ .edit-menu-list{
+    max-height: 300px;
+    opacity: 1;
+    top: 100%;
+}
+
+.edit-menu input:checked + label:after{
+    transform: rotate(225deg) translate(0,50%);
+
+}
+#edit-menu-cb{
+    display: none;
+}
+
+.edit-options{
+    position: relative;
+}
+#change-visibility-button{z-index: 10;}

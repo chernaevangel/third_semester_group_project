@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.pdfButton{
+    right: 0px;
+    position: absolute;
+    top: 160px;
+    
+   
+}
+#send-msg-button {
+    position: absolute;
+    margin-top: 154px;
+    margin-left:  74%;
+    width: 150px;
+    height: 37px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 0.5px solid rgb(62, 62, 61);
+    padding: 5px;
+    font-size: 18px;
+    color: rgb(41, 41, 41);
+    background-color: rgb(96, 67, 95);
+}
+#send-msg-button:hover {opacity: .8;}
+.buttonExport{
+    
+  width: 225px;
+  height: 37px;
+  border-radius: 7px;
+  border: 0.5px solid rgb(62, 62, 61);
+  padding: 5px;
+  font-size: 18px;
+  color: rgb(41, 41, 41);
+  background-color: rgb(96, 67, 95);
+}
+
+.buttonExport:hover{
+   color: rgb(255, 254, 253);
+}
+
+#Stories {
+    overflow: hidden;
+    --web-view-name: Stories;
+    --web-view-id: Stories;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+    background-color:#7c637c;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    position: relative;
+
+}
+#Stories_g {
+   
+}
+#StoriesBg {
+
+    padding-bottom: 50px;
+
+
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+#SingleStoriesWrapper{
+    padding-top: 5px;
+}
+.StoriesBg {
+    background-color: #e3dfe3;
+    border:1px solid rgba(112,112,112,1);
+    position: relative;
+    overflow: visible;
+    left: 0px;
+    top: 5.5%;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+#SingleStory {
+    padding-block: .5%;
+    padding-inline: 5%;
+    position: relative;
+}
+#SingleStoryWrapper {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #e7e5e7;
+    border: 1px solid rgba(112,112,112,1);
+border-radius: 5px;
+    padding-inline: 5%;
+    padding-block: 2.5%;
+    padding: 15px;
+}
+.SingleStoryWrapper {
+background-color: #e7e5e7;
+    position: relative;
+    overflow: visible;
+}
+#DateWrap {
+    position: relative;
+    overflow: visible;
+    width: 52px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(112,112,112,1);
+}
+#TitleWrap {
+    position: relative;
+    overflow: visible;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: black;
+}
+#StoryDescriptionWrap {
+    position: relative;
+    overflow: visible;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Story1 {
+    position: absolute;
+    width: 1042px;
+    height: 292px;
+    left: 40px;
+    top: 660px;
+    overflow: visible;
+}
+#Rectangle_6 {
+    fill: rgba(204,201,210,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 1042px;
+    height: 270px;
+    left: 0px;
+    top: 22px;
+}
+#n_0_Aug {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgba(112,112,112,1);
+}
+#I_happened_to_think_of_a_story {
+    left: 23px;
+    top: 33px;
+    position: absolute;
+    overflow: visible;
+    width: 855px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#StoryLinkWrap {
+    position: relative;
+    overflow: visible;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#AddProject{
+    padding-top: 5px;
+    padding-inline: 5%;
+}
+#AddWrapper {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#Stories_s {
+    padding-top: 50px;
+    position: relative;
+    overflow: visible;
+    /* width: 108px; */
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(112,112,112,1);
+    text-align: center;
+}
+#Profile{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    overflow: visible;
+}
+#Ellipse_1 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 235px;
+    height: 235px;
+    left: 0px;
+    top: 0px;
+}
+#StudentInfo {
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #707070;
+    position: relative;
+}
+
+#project-button-edit {
+    color: rgb(130 130 130);
+    float: right;
+    font-size: 25px;
+    background-color: inherit;
+    padding-right: 1%;
+}
+#project-button-delete {
+    color: rgb(130 130 130);
+    float: right;
+    font-size: 25px;
+    background-color: inherit;
+}
+#project-button-delete:hover{opacity: .8; cursor: pointer;}
+#project-button-edit:hover{opacity: .8; cursor: pointer;}
+#EditWrapper{
+    justify-content: center;
+}
+#NameInput{
+    width: -moz-available;
+    width: -webkit-fill-available;
+    background-color: #ccc9d2;
+    resize: none;
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#BioInput{
+    width: -moz-available;
+    width: -webkit-fill-available;
+    background-color: #ccc9d2;
+    resize: none;
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#SaveButton{
+    background-color: #636;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    resize: none;
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
+}

@@ -1,0 +1,62 @@
+body{
+    background-color: #7c637c;
+}
+#LoginWrapperHor{
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+#LoginWrapperVer{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#LoginWrapperReal{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+color: #282c34;
+    background-color: #a6a4a4;
+    padding: 50px;
+border: #000000 1px solid;
+    border-radius: 10px;
+}
+#nameinput{
+    color: black;
+    border-radius: 5px;
+    font-size: 30px;width: -webkit-fill-available;
+    width: -moz-available;
+    margin-bottom: 10px;
+    box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#bioinput{
+    color: black;
+    border-radius: 5px;
+    font-size: 30px;width: -webkit-fill-available;
+    width: -moz-available;
+    margin-bottom: 10px;
+    box-shadow: inset rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#sumbitbtn{
+    border-radius: 5px;
+    position: relative;
+    justify-self: center;
+    background-color: #5e3e5e;
+    color: #d4cbcb;
+    font-size: 30px;width: -webkit-fill-available;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    padding: 5px;
+}
+#sumbitbtn:hover {
+    cursor: pointer;
+    background-color: #5b2d5b;
+}
+#header{
+    font-size: 25px;
+
+}
+
+#main-text {margin-bottom: 20px;}

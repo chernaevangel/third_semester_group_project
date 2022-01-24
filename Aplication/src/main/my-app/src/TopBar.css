@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Web_1920__1 {
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Web 1920 – 1;
+    --web-view-id: Web_1920__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#TopBar {
+
+    overflow: visible;
+    background-color: #5e3e5e;
+}
+#TopbarBg {
+
+    fill: #636;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.TopbarBg {
+    display: grid;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+#Logo {
+    position: relative;
+    justify-self: center;
+    align-self: center;
+    grid-column: 1/3;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(212,203,203,1);
+    cursor: pointer;
+}
+#LoggedUser {
+    grid-column: 8/10;
+    display: flex;
+    align-items: stretch;
+}
+
+.small-panel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.pending-requests-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    background-image: url("./pendingRequestIcon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.pending-requests-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pending-requests-btn:active{
+    box-shadow:inset rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#UserWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    order: 2;
+    cursor: pointer;
+}
+#UserName {
+    white-space: nowrap;
+    text-align: right;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #d4cbcb;
+}
+#UserPic {
+    background-color: rgba(255,255,255,1);
+    border: 3px solid rgba(112,112,112,1);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.UserPic {
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+#SearchBar, .UserPic {
+
+}
+#SearchBar {
+    grid-column: 3/8;
+}
+#SearchBg {
+    width: -webkit-fill-available;width: -moz-available;
+    position: relative;
+    top: 25%;
+    fill: rgba(255,255,255,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.SearchBg {
+    position: relative;
+    top: 25%;
+
+}
+#Search {
+    border-radius: 10px;
+    width: -webkit-fill-available;width: -moz-available;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(168,166,166,1);
+}
+.search-list-img{
+    float: left;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.search-list-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.search-list-name{
+    height: 40px;
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-size: 20px;
+}

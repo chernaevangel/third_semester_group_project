@@ -1,0 +1,85 @@
+#SinglePersonWrapper{
+    background-color: #dfd9df;
+    border: 1px solid rgba(112,112,112,1);
+    padding-block: 2%;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#SinglePersonWrapper p{
+    font-size: 16px;
+    color: #000;
+}
+
+#storryAccountDate p{
+ font-size: 16px;
+ opacity: 0.6;
+}
+
+#storryAccountDate{
+    margin-top: 7px;
+}
+
+#AllPeopleWrapper{
+    border-right: 1px solid rgba(112,112,112,1);
+    border-block: 1px solid rgba(112,112,112,1);
+    background-color:#e3dfe3;
+    width: 350px;
+    height: fit-content;
+    padding-inline: 5%;
+    padding-bottom: 10%;
+    border-radius: 20px;
+    border: 1px solid rgb(115, 114, 114);
+    margin-bottom: 80px;
+}
+
+#ViewBtn{
+    color: #4d4d4d;
+
+    background-color:#dfd9df;
+
+}
+body{
+    color: #707070;
+}
+
+
+#deleteAccStoryButton{
+  border: 1px solid rgb(137, 135, 135);
+  border-radius: 8px;
+  background-color: rgb(209, 210, 240);
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+#deleteAccStoryText{
+
+}
+
+#Name{
+    margin-bottom: 8px;
+}
+
+#PepopeTxt{
+    padding-top: 10px;
+    position: relative;
+    overflow: visible;
+    /* width: 108px; */
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(112,112,112,1);
+    text-align: center;
+    padding-bottom: 10px;
+
+}

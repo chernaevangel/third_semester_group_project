@@ -1,0 +1,23 @@
+.chat-container {
+    height: 75px;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.chat-container:hover {
+    cursor: pointer;
+    background-color: #ececec;
+}
+
+#chat-name {
+    float:left;
+    margin-left: 20px;
+}
+#chat-lastmsg {
+    color: #555555;
+    font-size: 15px;
+    margin: 5px auto auto;
+}

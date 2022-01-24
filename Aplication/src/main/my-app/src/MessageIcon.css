@@ -1,0 +1,19 @@
+.message-icon{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    height: 75px;
+    width: 75px;
+}
+#icon {
+    border:1px solid black;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+#chats {visibility: visible;}

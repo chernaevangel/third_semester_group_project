@@ -1,0 +1,52 @@
+.Chats{
+    height: 300px;
+    width: 300px;
+    float: right;
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    overflow-y: auto;
+    z-index: 10;
+}
+.Chats::-webkit-scrollbar {
+    height: 250px;
+    width: 10px;
+}
+
+/* Track */
+.Chats::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+.Chats::-webkit-scrollbar-thumb {
+    background: #5E3E5E;
+    border-radius: 10px;
+}
+#ChatBox-menu {
+    background-color: #5E3E5E;
+}
+#close-button {float: right;}
+.Class-button button {
+    border-radius: 20px;
+    border-bottom: 0;
+    font-size: 20px;
+    width: 25px;
+    height: 25px;
+    background-color: #5E3E5E;
+    color: white;
+
+}
+.Class-button{position: fixed; background-color: #5E3E5E; width: 300px;}
+.Class-button button:hover{background-color: #773366;
+    cursor: pointer;}
+
+#id {margin-top: 40px;}
+
+#opened-chat {
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,134 @@
+.clear{
+    clear: both;
+}
+
+.NewsfeedWrapper{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.storyProfileInfo{
+    overflow: hidden;
+    position: relative;
+}
+
+.storyWrapper{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.nameAndDate{
+    height: 100%;
+    position: absolute;
+    left: 70px;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.nameAndDate .name{
+    color: black;
+    font-weight: bolder;
+}
+
+.storyBody{
+    color:black;
+    margin-top: 10px;
+}
+
+.imgHolder{
+    width: 60px;
+    height: 60px;
+    float:left;
+}
+
+.imgHolder img{
+    background-color: rgba(255,255,255,1);
+    border: 3px solid rgba(112,112,112,1);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.inputContainer{
+    float: none;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.inputContainer > *{
+    margin: 5px 0 5px 0;
+}
+
+.inputContainer input{
+    height: 30px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    font-size: 1.5em;
+    padding: 5px;
+    width: 100%;
+}
+
+.inputContainer input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 0.6; /* Firefox */
+}
+
+.inputContainer label{
+    border: none;
+}
+
+.inputContainer span{
+    display: block;
+    resize: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    width: 100%;
+    padding: 5px;
+}
+
+.inputContainer button{
+    float: right;
+    cursor: pointer;
+    width: 20%;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+.inputContainer button:active{
+    box-shadow: inset rgba(0, 0, 0, 0.07) 0px 1px 1px, inset rgba(0, 0, 0, 0.07) 0px 2px 2px,inset rgba(0, 0, 0, 0.07) 0px 4px 4px,inset rgba(0, 0, 0, 0.07) 0px 8px 8px,inset rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    min-height: 60px;
+    line-height: 20px;
+}
+
+.textareaEng[contenteditable]:empty::before {
+    content: "Write what's on your mind...";
+    color: gray;
+}
+
+.textareaNed[contenteditable]:empty::before {
+    content: "Wat houdt je bezig?";
+    color: gray;
+}
+
+/* #storyDescriptionNed[contenteditable]:empty::before {
+    content: "Wat houdt je bezig?";
+    color: gray;
+}
+
+#storyDescriptionEng[contenteditable]:empty::before {
+    content: "Write what's on your mind...";
+    color: gray;
+} */

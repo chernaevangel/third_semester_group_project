@@ -1,0 +1,31 @@
+.msg {
+}
+
+.message-received {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: lightgray;
+    border-radius: 20px;
+    width: 60%;
+    padding: 10px ;
+    color: black;
+}
+.message-sent {
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: lightskyblue;
+    color: black;
+    border-radius: 20px;
+    width: 60%;
+    padding: 10px ;
+}
+#message{
+    font-size: 12px;
+}
+#sender {
+    color: grey;
+    font-size: 10px;
+
+}

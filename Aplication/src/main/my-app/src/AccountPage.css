@@ -1,0 +1,19 @@
+#AccountPageWrapper{
+    display: grid;
+    background-color: #7c637c;
+    /* grid-template-areas: "a b b b c"; */
+    grid-template-columns: repeat(13, minmax(0, 1fr));
+  
+}
+#StoriesWrapper{
+    overflow: visible;
+grid-column: 3/10;
+
+}
+#AccountWrapper{
+    grid-column: 10/12;
+    padding-top: 200px;
+    display: flex;
+    padding-left: 10px;
+}
+
